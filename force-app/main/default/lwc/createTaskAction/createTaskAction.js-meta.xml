@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <isExposed>true</isExposed>
+    
+     <!-- Creating a Quick Action! Is only available on Lightning__RecordPage
+      there's two types of quick action: Screen Action (show something in UI) and Headless Quick Action (trigger something)-->
+    <targets>
+        <target>lightning__RecordAction</target>
+        <target>lightning__UtilityBar</target>
+    </targets>
+   
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordAction">
+            <actionType>
+                ScreenAction
+            </actionType>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
