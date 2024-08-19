@@ -4,6 +4,11 @@
         <members>ToDo__c</members>
         <name>CustomObject</name>
     </types>
+
+     <types>
+        <members>ToDo__c-ToDo Layout</members>
+        <name>Layout</name>
+    </types>
    
     <version>61.0</version>
 </Package>
