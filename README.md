@@ -1,18 +1,12 @@
-# Salesforce DX Project: Next Steps
+# Salesforce Project: ToDo App
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+The To-Do App is a fully responsive, lightweight application integrated into Salesforce, leveraging the power of Lightning Web Components (LWC) for a modern, fast, and user-friendly interface. The app allows users to create, manage, and track tasks directly from their Salesforce dashboard, making task management seamless and efficient.
 
-## How Do You Plan to Deploy Your Changes?
+## Features:
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+1. Task Management:
 
-## Configure Your Salesforce DX Project
+* Create Tasks: Users can easily create new tasks by entering the task title, description, priority, and due date. The interface is designed to be intuitive, with form validation ensuring all required fields are filled.
+* Task Lists: Tasks are displayed in a clean, organized list format, with options to filter by status (e.g., All, Completed, Pending).
+* Edit & Delete Tasks: Users can update or remove tasks as needed, with changes instantly reflected in the UI.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
